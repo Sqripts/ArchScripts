@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Create an 8GB swapfile
+# Create an 16GB swapfile
 
-sudo fallocate -l 8G /swapfile
+sudo fallocate -l 16G /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
 
